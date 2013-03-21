@@ -11,8 +11,10 @@ Xummer
 ![](http://farm9.staticflickr.com/8391/8575948507_a3581769d1.jpg)
 
 ## How To
-1.需要在VTInfiniteGridView加arc编译标记 -fobjc-arc    
+1.用的是nonarc，所以需要在VTInfiniteGridView加arc编译标记 -fobjc-arc  
 ![](http://farm9.staticflickr.com/8249/8575947719_de234dd72f.jpg)  
+  Ps：如果需要导入arc的工程，在InfinitePickerGrid.m和InfinitePickerView.m中加编译标记 -fno-objc-arc
+
 
 2.设置delegate
 
