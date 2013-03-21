@@ -6,14 +6,16 @@ Xummer
 **[Follow Me On Weibo](http://weibo.com/xummers)**
 
 ## Over View
-用了ixnixnixn的[IAInfiniteGridView](https://github.com/ixnixnixn/IAInfiniteGridView)改了个竖版的循环VTInfiniteGridView。再在外面套了一个View作为picker的响应。
+用了ixnixnixn的[IAInfiniteGridView](https://github.com/ixnixnixn/IAInfiniteGridView)改了个竖版的循环VTInfiniteGridView。  
+再在外面套了一个View作为picker的响应。
 
 ## How To
-1.需要在VTInfiniteGridView加arc编译标记 -fobjc-arc
+1.需要在VTInfiniteGridView加arc编译标记 -fobjc-arc  
+
 2.设置delegate
 
 	@interface ViewController : UIViewController <InfiPickerDelegate>	
-3.具体使用
+3.具体使用（maskIndex:从0开始 starIndex:从0开始）
 
 	NSArray *dataArray = @[@"0", @"1", @"2", @"3", @"4", @"5"];
 	InfinitePickerView *pickerView = [[InfinitePickerView alloc] initWithData:dataArray maskIndex:1 startIndex:0];
