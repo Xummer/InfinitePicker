@@ -6,7 +6,7 @@ Xummer
 **[Follow Me On Weibo](http://weibo.com/xummers)**
 
 ## Over View
-用了ixnixnixn的[IAInfiniteGridView](https://github.com/ixnixnixn/IAInfiniteGridView)改了个竖版的循环VTInfiniteGridView。  
+用了[ixnixnixn](https://github.com/ixnixnixn)的[IAInfiniteGridView](https://github.com/ixnixnixn/IAInfiniteGridView)改了个竖版的循环VTInfiniteGridView。  
 再在外面套了一个View作为picker的响应。  
 ![](http://farm9.staticflickr.com/8391/8575948507_a3581769d1.jpg)
 
