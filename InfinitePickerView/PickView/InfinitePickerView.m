@@ -13,7 +13,6 @@
 #define kPickMaskImage  @"pick_masker_bg.png"
 
 #define kBGColor        [UIColor blackColor]
-#define kMaskBGColor    [UIColor colorWithWhite:226.0f/255.0f alpha:0.5f]
 
 #import "InfinitePickerView.h"
 #import "InfinitePickerGrid.h"
