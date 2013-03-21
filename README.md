@@ -7,10 +7,12 @@ Xummer
 
 ## Over View
 用了ixnixnixn的[IAInfiniteGridView](https://github.com/ixnixnixn/IAInfiniteGridView)改了个竖版的循环VTInfiniteGridView。  
-再在外面套了一个View作为picker的响应。
+再在外面套了一个View作为picker的响应。  
+![](http://farm9.staticflickr.com/8391/8575948507_a3581769d1.jpg)
 
 ## How To
-1.需要在VTInfiniteGridView加arc编译标记 -fobjc-arc  
+1.需要在VTInfiniteGridView加arc编译标记 -fobjc-arc    
+![](http://farm9.staticflickr.com/8249/8575947719_de234dd72f.jpg)  
 
 2.设置delegate
 
