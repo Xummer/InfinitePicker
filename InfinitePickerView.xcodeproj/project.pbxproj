@@ -1,0 +1,349 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C14C821716FA98AD00530A5C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C14C821616FA98AD00530A5C /* UIKit.framework */; };
+		C14C821916FA98AD00530A5C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C14C821816FA98AD00530A5C /* Foundation.framework */; };
+		C14C821B16FA98AD00530A5C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C14C821A16FA98AD00530A5C /* CoreGraphics.framework */; };
+		C14C822116FA98AD00530A5C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C14C821F16FA98AD00530A5C /* InfoPlist.strings */; };
+		C14C822316FA98AD00530A5C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C14C822216FA98AD00530A5C /* main.m */; };
+		C14C822716FA98AD00530A5C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C14C822616FA98AD00530A5C /* AppDelegate.m */; };
+		C14C822916FA98AD00530A5C /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = C14C822816FA98AD00530A5C /* Default.png */; };
+		C14C822B16FA98AD00530A5C /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C14C822A16FA98AD00530A5C /* Default@2x.png */; };
+		C14C822D16FA98AD00530A5C /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C14C822C16FA98AD00530A5C /* Default-568h@2x.png */; };
+		C14C823016FA98AD00530A5C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C14C822F16FA98AD00530A5C /* ViewController.m */; };
+		C14C823316FA98AD00530A5C /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C14C823116FA98AD00530A5C /* ViewController.xib */; };
+		C14C824216FA990B00530A5C /* InfinitePickerGrid.m in Sources */ = {isa = PBXBuildFile; fileRef = C14C823B16FA990B00530A5C /* InfinitePickerGrid.m */; };
+		C14C824316FA990B00530A5C /* InfinitePickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = C14C823D16FA990B00530A5C /* InfinitePickerView.m */; };
+		C14C824416FA990B00530A5C /* InfinitePickerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C14C823E16FA990B00530A5C /* InfinitePickerView.xib */; };
+		C14C824516FA990B00530A5C /* VTInfiniteGridView.m in Sources */ = {isa = PBXBuildFile; fileRef = C14C824116FA990B00530A5C /* VTInfiniteGridView.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		C14C824716FAA2A900530A5C /* pick_masker_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = C14C824616FAA2A900530A5C /* pick_masker_bg.png */; };
+		C14C824916FAA5C200530A5C /* dottedline_pic.png in Resources */ = {isa = PBXBuildFile; fileRef = C14C824816FAA5C200530A5C /* dottedline_pic.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C14C821316FA98AD00530A5C /* InfinitePickerView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InfinitePickerView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C14C821616FA98AD00530A5C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C14C821816FA98AD00530A5C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C14C821A16FA98AD00530A5C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C14C821E16FA98AD00530A5C /* InfinitePickerView-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "InfinitePickerView-Info.plist"; sourceTree = "<group>"; };
+		C14C822016FA98AD00530A5C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C14C822216FA98AD00530A5C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C14C822416FA98AD00530A5C /* InfinitePickerView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "InfinitePickerView-Prefix.pch"; sourceTree = "<group>"; };
+		C14C822516FA98AD00530A5C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C14C822616FA98AD00530A5C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C14C822816FA98AD00530A5C /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		C14C822A16FA98AD00530A5C /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		C14C822C16FA98AD00530A5C /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		C14C822E16FA98AD00530A5C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C14C822F16FA98AD00530A5C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C14C823216FA98AD00530A5C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		C14C823A16FA990B00530A5C /* InfinitePickerGrid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InfinitePickerGrid.h; sourceTree = "<group>"; };
+		C14C823B16FA990B00530A5C /* InfinitePickerGrid.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InfinitePickerGrid.m; sourceTree = "<group>"; };
+		C14C823C16FA990B00530A5C /* InfinitePickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InfinitePickerView.h; sourceTree = "<group>"; };
+		C14C823D16FA990B00530A5C /* InfinitePickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InfinitePickerView.m; sourceTree = "<group>"; };
+		C14C823E16FA990B00530A5C /* InfinitePickerView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InfinitePickerView.xib; sourceTree = "<group>"; };
+		C14C824016FA990B00530A5C /* VTInfiniteGridView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VTInfiniteGridView.h; sourceTree = "<group>"; };
+		C14C824116FA990B00530A5C /* VTInfiniteGridView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VTInfiniteGridView.m; sourceTree = "<group>"; };
+		C14C824616FAA2A900530A5C /* pick_masker_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pick_masker_bg.png; sourceTree = "<group>"; };
+		C14C824816FAA5C200530A5C /* dottedline_pic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dottedline_pic.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C14C821016FA98AD00530A5C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C14C821716FA98AD00530A5C /* UIKit.framework in Frameworks */,
+				C14C821916FA98AD00530A5C /* Foundation.framework in Frameworks */,
+				C14C821B16FA98AD00530A5C /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C14C820A16FA98AD00530A5C = {
+			isa = PBXGroup;
+			children = (
+				C14C821C16FA98AD00530A5C /* InfinitePickerView */,
+				C14C821516FA98AD00530A5C /* Frameworks */,
+				C14C821416FA98AD00530A5C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C14C821416FA98AD00530A5C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C14C821316FA98AD00530A5C /* InfinitePickerView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C14C821516FA98AD00530A5C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C14C821616FA98AD00530A5C /* UIKit.framework */,
+				C14C821816FA98AD00530A5C /* Foundation.framework */,
+				C14C821A16FA98AD00530A5C /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C14C821C16FA98AD00530A5C /* InfinitePickerView */ = {
+			isa = PBXGroup;
+			children = (
+				C14C822516FA98AD00530A5C /* AppDelegate.h */,
+				C14C822616FA98AD00530A5C /* AppDelegate.m */,
+				C14C822E16FA98AD00530A5C /* ViewController.h */,
+				C14C822F16FA98AD00530A5C /* ViewController.m */,
+				C14C823116FA98AD00530A5C /* ViewController.xib */,
+				C14C823916FA990B00530A5C /* PickView */,
+				C14C821D16FA98AD00530A5C /* Supporting Files */,
+			);
+			path = InfinitePickerView;
+			sourceTree = "<group>";
+		};
+		C14C821D16FA98AD00530A5C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C14C824816FAA5C200530A5C /* dottedline_pic.png */,
+				C14C824616FAA2A900530A5C /* pick_masker_bg.png */,
+				C14C821E16FA98AD00530A5C /* InfinitePickerView-Info.plist */,
+				C14C821F16FA98AD00530A5C /* InfoPlist.strings */,
+				C14C822216FA98AD00530A5C /* main.m */,
+				C14C822416FA98AD00530A5C /* InfinitePickerView-Prefix.pch */,
+				C14C822816FA98AD00530A5C /* Default.png */,
+				C14C822A16FA98AD00530A5C /* Default@2x.png */,
+				C14C822C16FA98AD00530A5C /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C14C823916FA990B00530A5C /* PickView */ = {
+			isa = PBXGroup;
+			children = (
+				C14C823A16FA990B00530A5C /* InfinitePickerGrid.h */,
+				C14C823B16FA990B00530A5C /* InfinitePickerGrid.m */,
+				C14C823C16FA990B00530A5C /* InfinitePickerView.h */,
+				C14C823D16FA990B00530A5C /* InfinitePickerView.m */,
+				C14C823E16FA990B00530A5C /* InfinitePickerView.xib */,
+				C14C823F16FA990B00530A5C /* VTInfiniteGridView */,
+			);
+			path = PickView;
+			sourceTree = "<group>";
+		};
+		C14C823F16FA990B00530A5C /* VTInfiniteGridView */ = {
+			isa = PBXGroup;
+			children = (
+				C14C824016FA990B00530A5C /* VTInfiniteGridView.h */,
+				C14C824116FA990B00530A5C /* VTInfiniteGridView.m */,
+			);
+			path = VTInfiniteGridView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C14C821216FA98AD00530A5C /* InfinitePickerView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C14C823616FA98AD00530A5C /* Build configuration list for PBXNativeTarget "InfinitePickerView" */;
+			buildPhases = (
+				C14C820F16FA98AD00530A5C /* Sources */,
+				C14C821016FA98AD00530A5C /* Frameworks */,
+				C14C821116FA98AD00530A5C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = InfinitePickerView;
+			productName = InfinitePickerView;
+			productReference = C14C821316FA98AD00530A5C /* InfinitePickerView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C14C820B16FA98AD00530A5C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = Xummer;
+			};
+			buildConfigurationList = C14C820E16FA98AD00530A5C /* Build configuration list for PBXProject "InfinitePickerView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C14C820A16FA98AD00530A5C;
+			productRefGroup = C14C821416FA98AD00530A5C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C14C821216FA98AD00530A5C /* InfinitePickerView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C14C821116FA98AD00530A5C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C14C822116FA98AD00530A5C /* InfoPlist.strings in Resources */,
+				C14C822916FA98AD00530A5C /* Default.png in Resources */,
+				C14C822B16FA98AD00530A5C /* Default@2x.png in Resources */,
+				C14C822D16FA98AD00530A5C /* Default-568h@2x.png in Resources */,
+				C14C823316FA98AD00530A5C /* ViewController.xib in Resources */,
+				C14C824416FA990B00530A5C /* InfinitePickerView.xib in Resources */,
+				C14C824716FAA2A900530A5C /* pick_masker_bg.png in Resources */,
+				C14C824916FAA5C200530A5C /* dottedline_pic.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C14C820F16FA98AD00530A5C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C14C822316FA98AD00530A5C /* main.m in Sources */,
+				C14C822716FA98AD00530A5C /* AppDelegate.m in Sources */,
+				C14C823016FA98AD00530A5C /* ViewController.m in Sources */,
+				C14C824216FA990B00530A5C /* InfinitePickerGrid.m in Sources */,
+				C14C824316FA990B00530A5C /* InfinitePickerView.m in Sources */,
+				C14C824516FA990B00530A5C /* VTInfiniteGridView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C14C821F16FA98AD00530A5C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C14C822016FA98AD00530A5C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C14C823116FA98AD00530A5C /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C14C823216FA98AD00530A5C /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C14C823416FA98AD00530A5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C14C823516FA98AD00530A5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C14C823716FA98AD00530A5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "InfinitePickerView/InfinitePickerView-Prefix.pch";
+				INFOPLIST_FILE = "InfinitePickerView/InfinitePickerView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C14C823816FA98AD00530A5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "InfinitePickerView/InfinitePickerView-Prefix.pch";
+				INFOPLIST_FILE = "InfinitePickerView/InfinitePickerView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C14C820E16FA98AD00530A5C /* Build configuration list for PBXProject "InfinitePickerView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C14C823416FA98AD00530A5C /* Debug */,
+				C14C823516FA98AD00530A5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C14C823616FA98AD00530A5C /* Build configuration list for PBXNativeTarget "InfinitePickerView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C14C823716FA98AD00530A5C /* Debug */,
+				C14C823816FA98AD00530A5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C14C820B16FA98AD00530A5C /* Project object */;
+}
